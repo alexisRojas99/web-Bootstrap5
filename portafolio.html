@@ -1,0 +1,258 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <!-- Esta linea de codigo es importante ya que nos permite hacer responsive  -->
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <!-- Llamamos css de bootstrap -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
+        integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+    <!-- tambien podemos usar de manera local <link rel="stylesheet" href="css/bootstrap.min.css"> -->
+
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;800&display=swap" rel="stylesheet">
+
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Nanum+Pen+Script&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="css/estilos.css">
+
+    <title>Portafolio Alexis Rojas</title>
+</head>
+
+<body>
+    <header>
+        <div class="container">
+            <!-- Barra de Navegacion -->
+            <div class="nav row rounded-top align-items-stretch justify-content-between">
+                <!-- Logotipo -->
+                <div
+                    class="logo col-md-12 col-lg d-flex align-items-center justify-content-center justify-content-lg-start">
+                    <h2>Alexis Rojas</h2>
+                    <span class="icono">&#8226;</span>
+                    <p>Desarrollador Web</p>
+                </div>
+
+                <!-- Menu -->
+                <nav class="menu col-md-12 col-lg-auto d-flex align-items-stretch flex-wrap flex-sm-nowrap">
+                    <a href="" class="c-1 d-flex align-items-center">
+                        <div class="d-flex flex-column text-center">
+                            <span>Portafolio</span>
+                            <i><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                                    class="bi bi-archive-fill" viewBox="0 0 16 16">
+                                    <path
+                                        d="M12.643 15C13.979 15 15 13.845 15 12.5V5H1v7.5C1 13.845 2.021 15 3.357 15h9.286zM5.5 7h5a.5.5 0 0 1 0 1h-5a.5.5 0 0 1 0-1zM.8 1a.8.8 0 0 0-.8.8V3a.8.8 0 0 0 .8.8h14.4A.8.8 0 0 0 16 3V1.8a.8.8 0 0 0-.8-.8H.8z" />
+                                </svg></i>
+                        </div>
+                    </a>
+                    <a href="" class="c-2 d-flex align-items-center">
+                        <div class="d-flex flex-column text-center">
+                            <span>Acerca de</span>
+                            <i><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                                    class="bi bi-person-fill" viewBox="0 0 16 16">
+                                    <path
+                                        d="M3 14s-1 0-1-1 1-4 6-4 6 3 6 4-1 1-1 1H3zm5-6a3 3 0 1 0 0-6 3 3 0 0 0 0 6z" />
+                                </svg></i>
+                        </div>
+                    </a>
+                    <a href="" class="c-3 d-flex align-items-center">
+                        <div class="d-flex flex-column text-center">
+                            <span>Contacto</span>
+                            <i><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                                    class="bi bi-envelope-fill" viewBox="0 0 16 16">
+                                    <path
+                                        d="M.05 3.555A2 2 0 0 1 2 2h12a2 2 0 0 1 1.95 1.555L8 8.414.05 3.555zM0 4.697v7.104l5.803-3.558L0 4.697zM6.761 8.83l-6.57 4.027A2 2 0 0 0 2 14h12a2 2 0 0 0 1.808-1.144l-6.57-4.027L8 9.586l-1.239-.757zm3.436-.586L16 11.801V4.697l-5.803 3.546z" />
+                                </svg></i>
+                        </div>
+                    </a>
+                </nav>
+            </div>
+
+            <!-- Slider -->
+            <div class="row slider">
+                <div class="col">
+                    <div class="carousel slide" id="slider" data-ride="carousel">
+                        <ol class="carousel-indicators">
+                            <li data-target="#slider" data-slide-to="0" class="active"></li>
+                            <li data-target="#slider" data-slide-to="1"></li>
+                            <li data-target="#slider" data-slide-to="2"></li>
+                        </ol>
+                        <div class="carousel-inner">
+                            <div class="carousel-item active">
+                                <img src="../img/aleatorio/arboles.jpg" alt="Arboles img" class="d-block img-fluid">
+                            </div>
+                            <div class="carousel-item">
+                                <img src="../img/aleatorio/pradera.jpg" alt="Arboles img" class="d-block img-fluid">
+                            </div>
+                            <div class="carousel-item">
+                                <img src="../img/aleatorio/paisaje.jpg" alt="Arboles img" class="d-block img-fluid">
+                            </div>
+                        </div>
+
+                        <a class="carousel-control-prev" href="#slider" role="button" data-slide="prev">
+                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Previous</span>
+                        </a>
+                        <a class="carousel-control-next" href="#slider" role="button" data-slide="next">
+                            <span class="visually-hidden">Next</span>
+                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <div class="container">
+            <!-- Seccion del Portafolio -->
+
+            <div class="row portafolio">
+                <div class="col">
+                    <h2 class="titulo">Portafolio</h2>
+                    <div class="row galeria justify-content-center">
+                        <div class="contenedor-imagen col-6 col-lg-4">
+                            <a href="#" data-toggle="modal" data-target="#modal">
+                                <img src="img/img-1.jpg" class="imagen img-fluid" alt="">
+                            </a>
+                        </div>
+                        <div class="contenedor-imagen col-12 col-lg-8">
+                            <a href="#" data-toggle="modal" data-target="#modal">
+                                <img src="img/img-2.jpg" class="imagen img-fluid" alt="">
+                            </a>
+                        </div>
+                        <div class="contenedor-imagen col-12 col-lg-8">
+                            <a href="#" data-toggle="modal" data-target="#modal">
+                                <img src="img/img-3.jpg" class="imagen img-fluid" alt="">
+                            </a>
+                        </div>
+                        <div class="contenedor-imagen col-6 col-lg-4">
+                            <a href="#" data-toggle="modal" data-target="#modal">
+                                <img src="img/img-4.jpg" class="imagen img-fluid" alt="">
+                            </a>
+                        </div>
+                        <div class="contenedor-imagen col-6 col-lg-4">
+                            <a href="#" data-toggle="modal" data-target="#modal">
+                                <img src="img/img-5.jpg" class="imagen img-fluid" alt="">
+                            </a>
+                        </div>
+                        <div class="contenedor-imagen col-6 col-lg-4">
+                            <a href="#" data-toggle="modal" data-target="#modal">
+                                <img src="img/img-6.jpg" class="imagen img-fluid" alt="">
+                            </a>
+                        </div>
+                        <div class="contenedor-imagen col-6 col-lg-4">
+                            <a href="#" data-toggle="modal" data-target="#modal">
+                                <img src="img/img-7.jpg" class="imagen img-fluid" alt="">
+                            </a>
+                        </div>
+                        <!-- Ventana Modal -->
+                        <div class="modal fade" id="modal">
+                            <div class="modal-dialog d-flex justify-content-center align-items-center">
+                                <div class="modal-content">
+                                    <img src="" alt="" id="imagen-modal" class="">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Seccion acerca de -->
+            <div class="row acerca-de align-items-center">
+                <div class="col-12 col-lg-4 foto">
+                    <img src="img/foto.jpg" class="rounded-circle img-fluid" alt="">
+                    <p class="nombre">Alexis Rojas</p>
+                </div>
+                <div class="col-12 col-lg-8 info">
+                    <h2 class="titulo">Acerca de</h2>
+                    <p class="resumen">Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias similique,
+                        illum ipsam corrupti dignissimos</p>
+                    <p class="resumen">Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias similique,
+                        illum ipsam corrupti dignissimos</p>
+
+                    <p class="label">HTML</p>
+                    <div class="progress">
+                        <div class="progress-bar" style="width: 95%;" role="progressbar" aria-valuenow="0"
+                            aria-valuemin="95" aria-valuemax="100">95%</div>
+                    </div>
+
+                    <p class="label">CSS</p>
+                    <div class="progress">
+                        <div class="progress-bar" style="width: 100%;">100%</div>
+                    </div>
+
+
+                    <p class="label">Java Script</p>
+                    <div class="progress">
+                        <div class="progress-bar" style="width: 80%;">80%</div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Seccion de contactos -->
+            <div class="row contacto justify-content-center">
+                <div class="col-12 col-lg-8">
+                    <h2 class="titulo">Contacto</h2>
+                    <form action="" class="formulario">
+                        <div class="row form-group">
+                            <div class="col-12 col-md-6">
+                                <input type="text" name="" id="" placeholder="Nombre">
+                            </div>
+                            <div class="col-12 col-md-6">
+                                <input type="email" name="" id="" placeholder="Correo">
+                            </div>
+                        </div>
+                        <textarea name="Mensaje" id="" cols="30" rows="5" placeholder="Mensaje"></textarea>
+                        <div class="form-group d-flex justify-content-center">
+                            <input type="submit" class="boton" value="Enviar">
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <footer>
+        <div class="container">
+            <div class="row redes-sociales justify-content-center">
+                <div class="col-auto">
+                    <a href=""><img src="icon/twitter.svg" alt="icon twitter" class="icon twitter"></a>
+                </div>
+                <div class="col-auto">
+                    <a href=""><img src="icon/instagram.svg" alt="icon twitter" class="icon instagram"></a>
+                </div>
+                <div class="col-auto">
+                    <a href=""><img src="icon/facebook.svg" alt="icon twitter" class="icon facebook"></a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Enlaces para utilizar bootstrap, para encontrar mas informacion visitar www.bootstrap.com-->
+    <!-- tambien podemos usar de manera local <script src="js/jquery-3.5.1.min.js"></script> -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+        crossorigin="anonymous"></script>
+    <!-- tambien podemos usar de manera local <script src="https://unpkg.com/@popperjs/core@^2.0.0"></script> -->
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+        integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+        crossorigin="anonymous"></script>
+    <!-- tambien podemos usar de manera local <script src="js/bootstrap.min.js"></script> -->
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"
+        integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI"
+        crossorigin="anonymous"></script>
+
+    <!-- Llamamos la animacion creada en el archivo modal.js de Jquery -->
+    <script src="js/modal.js"></script>
+
+    <!-- Reducimos el intervalo de tiempo del carousel con JavaScript -->
+    <script>
+        $('.carousel').carousel({
+            interval: 4000
+        })
+    </script>
+</body>
+
+</html>
